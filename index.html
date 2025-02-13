@@ -95,9 +95,30 @@
         <p>Linkedin:
             <a href="https://www.linkedin.com/in/luan-henrique-4a1a8123b/" target="_blank">Linkedin</a>
         </p>
+        <p class="deixe-email">Ou, deixe seu e-mail:</p>
+        <form action="submit" onsubmit="return validar()">
+            <input type="email" placeholder="Seu e-mail">
+            <input type="text" id="name" placeholder="Seu nome">
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
-    <script src="app.js"></script>
+    <script>
+        function validar() {
+            let email = document.querySelector('input[type="email"]').value;
+            let name = document.querySelector('input[type="text"]').value;
+    
+            if (name.length < 2 || name.length >= 100) {
+                alert("Digite um nome válido (entre 2 e 100 caracteres)");
+                return false;
+            }
+            if (email.length < 10 || email.length >= 100 || !email.includes("@")) {
+                alert("Digite um email válido");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 
 </html>
