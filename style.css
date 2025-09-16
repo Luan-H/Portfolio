@@ -86,7 +86,7 @@ nav ul li a:hover {
  /* About Section */
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Define duas colunas de largura igual */
+    grid-template-columns: 1fr 1fr;
     padding: 100px 0;
     height: 70vh;
     text-align: center;
@@ -112,7 +112,7 @@ nav ul li a:hover {
 .about-card {
     color: #000000;
     background-color: white;
-    padding-top: 40px;
+    padding-top: 20px;
     width: 300px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -147,7 +147,7 @@ nav ul li a:hover {
 .project-grid {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .project-card {
