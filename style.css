@@ -8,13 +8,13 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #F5F5DC;
-    color: #8B4513;
+    background-color: #141419;
+    color: #DCDCDC;
 }
 
 /* Navbar Styles */
 nav {
-    background-color: #202020;
+    background-color: #1414195f;
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -33,7 +33,7 @@ nav ul li {
 
 nav ul li a {
     padding: 15px;
-    color: white;
+    color: #DCDCDC;
     text-decoration: none;
     font-size: 1.2rem;
     transition: 0.5s;
@@ -41,8 +41,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color:#F5F5DC;
-    color: #000000;
+    background-color:#191e28db;
+    color: #966E50;
 }
 
 /* Hero Section */
@@ -66,21 +66,20 @@ nav ul li a:hover {
 
 .hero h1 {
     font-size: 3rem;
-    color: #8B4513;
+    color: #DCDCDC;
 }
 
 .hero .highlight {
     padding: 4px;
     border-radius: 8px;
-    border: 2px solid #8b4513;
-    background-color: #8B4513;
-    color: #FFFFFF;
+    border: 2px solid #1E232D;
+    background-color: #1E1E23;
+    color: #DCDCDC;
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-top: 20px;
-    color: #8B4513;
 }
 
  /* About Section */
@@ -90,7 +89,7 @@ nav ul li a:hover {
     padding: 100px 0;
     height: 70vh;
     text-align: center;
-    background-color: #F5F5DC;
+    background-color: #141419;
 }
 
 .about h2 {
@@ -120,7 +119,7 @@ nav ul li a:hover {
 
 .about-card h3{
     font-size: 1.25rem;
-    color: #8B4513;
+    color: #966E50;
 }
 
 .about-grid2 {
@@ -135,7 +134,7 @@ nav ul li a:hover {
 .projects {
     padding: 100px 0;
     height: 85vh;
-    background-color: #F5F5DC;
+    background-color: #141419;
     text-align: center;
 }
 
@@ -151,7 +150,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background-color: white;
+    background-color: #1E1E23;
     padding: 20px;
     width: 300px;
     border-radius: 5px;
@@ -159,11 +158,12 @@ nav ul li a:hover {
 }
 .project-card a{
     text-decoration: none;
-    color: #202020;
+    color: #DCDCDC;
 }
 .project-card a:hover{
+    transition: 0.4s;
     text-decoration: underline;
-    color: #202020;
+    color: #966E50;
 }
 
 .project-card h3 {
@@ -180,7 +180,7 @@ nav ul li a:hover {
 .contact {
     height: 50vh;
     padding: 100px 0;
-    background-color: #F5F5DC;
+    background-color: #141419;
     text-align: center;
 }
 
@@ -193,8 +193,11 @@ nav ul li a:hover {
     color: #333;
     text-decoration: none;
     font-weight: bold;
+    color: #DCDCDC;
 }
 
 .contact a:hover {
+    color: #966E50;
+    transition: 0.4s;
     text-decoration: underline;
 }
