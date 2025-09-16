@@ -109,8 +109,8 @@ nav ul li a:hover {
 }
 
 .about-card {
-    color: #000000;
-    background-color: white;
+    color: #DCDCDC;
+    background-color: #1E1E23;
     padding-top: 20px;
     width: 300px;
     border-radius: 5px;
