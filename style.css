@@ -198,3 +198,32 @@ nav ul li a:hover {
 .contact a:hover {
     text-decoration: underline;
 }
+
+.deixe-email{
+    padding-bottom: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 1px solid #8B4513;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8B4513;
+    color: #FFFFFF;
+}
+
+input{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #8B4513;
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #8B4513;
+}
