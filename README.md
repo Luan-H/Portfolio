@@ -1,4 +1,4 @@
-﻿# Portifolio
+﻿# Portfolio
 Bem-vindo ao meu portfólio! Este site foi desenvolvido para apresentar alguns dos projetos que eu criei, destacando minhas habilidades e experiência como programador.
 
 # Visão Geral do Portfólio
@@ -17,7 +17,7 @@ Este portfólio foi criado para mostrar meu trabalho de programação de forma o
 # Como Acessar
 - Você pode acessar o meu portfólio pelo seguinte link:
 
-[Portfólio de Luan Henrique](https://luan-h.github.io/Portifolio/)
+[Portfólio de Luan Henrique](https://luan-h.github.io/Portfolio/)
 
 # Projetos em Destaque
 - Aplicativo de Lista de Tarefas (To-Do List): Um aplicativo simples de lista de tarefas que usa Local Storage para persistir os dados entre sessões.
@@ -32,3 +32,4 @@ Sinta-se à vontade para entrar em contato comigo através das seguintes platafo
 
 [GitHub](https://github.com/Luan-H)
 [Linkedin](https://www.linkedin.com/in/luan-henrique-4a1a8123b/)
+
